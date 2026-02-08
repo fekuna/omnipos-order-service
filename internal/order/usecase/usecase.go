@@ -10,7 +10,7 @@ import (
 	"github.com/fekuna/omnipos-order-service/internal/model"
 	"github.com/fekuna/omnipos-order-service/internal/order/repository"
 	"github.com/fekuna/omnipos-pkg/broker"
-	productv1 "github.com/fekuna/omnipos-proto/proto/product/v1"
+	productv1 "github.com/fekuna/omnipos-proto/gen/go/omnipos/product/v1"
 	"github.com/google/uuid"
 	"google.golang.org/grpc/metadata"
 )

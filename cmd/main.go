@@ -14,8 +14,8 @@ import (
 	"github.com/fekuna/omnipos-pkg/broker"
 	"github.com/fekuna/omnipos-pkg/database/postgres"
 	"github.com/fekuna/omnipos-pkg/logger"
-	orderv1 "github.com/fekuna/omnipos-proto/proto/order/v1"
-	productv1 "github.com/fekuna/omnipos-proto/proto/product/v1"
+	orderv1 "github.com/fekuna/omnipos-proto/gen/go/omnipos/order/v1"
+	productv1 "github.com/fekuna/omnipos-proto/gen/go/omnipos/product/v1"
 
 	orderH "github.com/fekuna/omnipos-order-service/internal/order/handler"
 	orderRepoPkg "github.com/fekuna/omnipos-order-service/internal/order/repository"

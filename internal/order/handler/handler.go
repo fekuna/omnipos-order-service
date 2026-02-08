@@ -6,7 +6,7 @@ import (
 	"github.com/fekuna/omnipos-order-service/internal/auth"
 	"github.com/fekuna/omnipos-order-service/internal/model"
 	"github.com/fekuna/omnipos-order-service/internal/order/usecase"
-	orderv1 "github.com/fekuna/omnipos-proto/proto/order/v1"
+	orderv1 "github.com/fekuna/omnipos-proto/gen/go/omnipos/order/v1"
 	"github.com/google/uuid"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
